@@ -10,4 +10,5 @@ This repository contains all the source code of ourmakefile.
 Installation
 ---
 Run `./install.sh`
+
 Run `ourmake` to create a Makefile

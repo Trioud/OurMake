@@ -28,9 +28,16 @@ typedef struct list {
     struct list *next;
 }list;
 
+struct FTW {
+    int base;
+    int level;
+};
+
 char *my_strcat(char *dest, char *src);
 int my_putchar(char c);
 void my_putstr(char *str);
 char *get_current_dir_name(void);
 int my_strlen(char const *str);
+int nftw(const char *dirpath, int (*fn) (const char *fpath, const struct stat *sb,
+int typeflag, struct FTW *ftwbuf), int nopenfd, int flags);
 #endif

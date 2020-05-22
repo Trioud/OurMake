@@ -7,14 +7,12 @@ SRCS = ./my_putstr.c \
 	./my_strcat.c \
 	
 OBJS = $(SRCS:.c=.o)
-CFLAGS = -I
-CFLAGS += -Wall -Wextra
 
 ECHO		+= echo -e
 
 all: $(NAME)
 $(NAME): $(OBJS)
-	$(CC) $(OBJS) -o $(NAME) $(LDFLAGS)
+	$(CC) $(OBJS) -o $(NAME)
 
 clean:
 	$(RM) $(OBJS)

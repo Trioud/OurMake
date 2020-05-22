@@ -1,10 +1,8 @@
 NAME = program
 CC = gcc
 RM = rm -f
-SRCS = ./fesse/fesse.c \
-	./my_putstr.c \
+SRCS = ./my_putstr.c \
 	./main.c \
-	./templates.c \
 	./my_putchar.c \
 	./my_strcat.c \
 	

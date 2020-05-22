@@ -4,7 +4,7 @@ OurMake
 
 This repository contains all the source code of ourmakefile.
 <div align="center" >
-  <img width="450" height="450" src="resources/image.png" />
+  <img width="" height="" src="resources/image.png" />
 </div>
 
 Installation
